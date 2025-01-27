@@ -101,3 +101,33 @@ body {
     cursor: pointer;
     transition-duration: 0.4s;
 }
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border: 15px solid var(--third_color);
+    box-shadow: 2px 2px 3px;
+
+}
+
+.main-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-section h2 {
+    font-size: 36px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 34px;
+    margin-top: 30px;
+    /* flex-direction: column; */
+}
+
+.info p {
+    margin-top: 20px;
+}
