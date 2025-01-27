@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+:root {
+    --first_color: #fdd690;
+    --second_color: #e6a34f;
+    --third_color: #fe90aa;
+    --forth_color: #7694e4;
+    --fith_color: #0cccff;
+    --sixth_color: #fe2d4c;
+    
+    --primary_color: black;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titan One', 'Times New Roman', Times, serif;
+}
+
+
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container, .container-2 {
+    width: 960px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.main-nav-list a {
+    text-decoration: none;
+    color: var(--primary_color);
+    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.main-header {
+    background-color: var(--first_color);
+}
+
+.profile_image {
+    width: 500px;
+    height: 350px;
+    border-radius: 50%;
+    border: 15px solid var(--sixth_color);
+    box-shadow: 2px 2px 3px;
+}
+
+.header-intro {
+    font-size: 40px;
+}
+
+.header-text {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sign_up {
+    background-color: var(--fith_color);
+    color: var(--primary_color);
+    width: 130px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Titan One';
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sign_up:hover {
+    background-color: var(--sixth_color);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
