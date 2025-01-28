@@ -55,7 +55,6 @@ body {
     text-decoration: none;
     color: var(--primary_color);
     font-size: 20px;
-    /* font-family: 'Times New Roman', Times, serif; */
 }
 
 .icon {
@@ -132,7 +131,6 @@ body {
     flex-wrap: wrap;
     gap: 34px;
     margin-top: 30px;
-    /* flex-direction: column; */
 }
 
 .info p {
@@ -143,8 +141,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 250px;
-    /* padding:  128px 128px 96px; */
-    /* line-height: 100%; */
     line-height: 1.5;
     font-style: italic;
     background-color: var(--forth_color);
@@ -177,17 +173,12 @@ body {
     flex: 1;
 }
 
-/* .extra-text h3 {
-    font-size: 24px;
-} */
-
 .extra-text p {
     margin-top: 10px;
 }
 
 .extra-btn {
     margin-bottom: 20px;
-    /* font-size: 20px; */
 }
 
 footer {
