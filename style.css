@@ -21,10 +21,15 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
     font-family: 'Titan One', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 
 
@@ -191,4 +196,6 @@ footer {
     align-items: center;
     background-color: var(--footer_color);
     padding: 30px;
+    width: 100%;
+    margin-top: auto;
 }
